@@ -27,6 +27,10 @@
     color: var(--dark-blue);
 }
 
+.text-accent {
+    color: var(--accent);
+}
+
 
 /* heading and sub headings */
 

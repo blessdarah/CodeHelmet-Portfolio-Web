@@ -8,4 +8,29 @@ body {
 
 p {
     opacity: 0.856;
+    font-weight: 400;
+}
+
+h1,
+h3,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+a {
+    color: var(--dark-blue);
+    text-decoration: underline;
+}
+
+a:active {
+    opacity: .858;
+}
+
+
+/* images */
+
+img {
+    max-width: 100%;
+    height: auto;
 }

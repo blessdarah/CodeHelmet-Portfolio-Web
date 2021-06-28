@@ -38,7 +38,20 @@ with.
 * Component specific styling
 *****************************************************/
 
+@import url("./components/header.css");
+@import url("./components/menu.css");
+@import url("./components/button.css");
+@import url("./components/hero.css");
+@import url("./components/card.css");
+@import url("./components/forms.css");
 
 /****************************************************
 * Utility styles
 *****************************************************/
+
+@import url("./utilities/typography.css");
+@import url("./utilities/layout.css");
+@import url("./utilities/visibility.css");
+@import url("./utilities/spacing.css");
+@import url("./utilities/background.css");
+@import url("./utilities/common.css");
