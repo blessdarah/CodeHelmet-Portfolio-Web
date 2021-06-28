@@ -1,0 +1,11 @@
+body {
+    font-family: var(--font);
+    line-height: 1.5;
+    /* 1rem = 16px */
+    font-size: 16px;
+    color: var(--dark-blue);
+}
+
+p {
+    opacity: 0.856;
+}

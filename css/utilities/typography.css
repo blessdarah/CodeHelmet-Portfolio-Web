@@ -1,0 +1,39 @@
+/* alignment */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* text theme (color) */
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-secondary {
+    color: var(--secondary);
+}
+
+.text-light {
+    color: var(--light);
+}
+
+.text-dark-blue {
+    color: var(--dark-blue);
+}
+
+
+/* heading and sub headings */
+
+.title {
+    font-size: 2rem;
+}
+
+.subHeading {
+    font-size: 1.35rem;
+}
