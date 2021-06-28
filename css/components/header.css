@@ -1,0 +1,38 @@
+.header {
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    padding: 1rem 2rem;
+    margin: 40px auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    --pt: 3rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #fff;
+    width: 275px;
+    box-shadow: var(--shadow);
+    padding-top: var(--pt);
+    transform: translateX(-100%);
+    z-index: 9999;
+}
+
+.header__button {
+    box-shadow: var(--shadow);
+}
+
+@media screen and (min-width: 769px) {
+    .header__menu {
+        --pt: 0;
+        position: static;
+        height: auto;
+        background-color: transparent;
+        box-shadow: none;
+        width: auto;
+    }
+}

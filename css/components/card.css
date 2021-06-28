@@ -1,0 +1,44 @@
+.card {
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.card__image {
+    border-radius: .8rem;
+    box-shadow: var(--shadow);
+}
+
+.card__body {
+    padding: 1.5rem;
+}
+
+.card__title {
+    font-size: 1.74rem;
+}
+
+.card__text {
+    margin-bottom: 1rem;
+}
+
+
+/* horizantal cards */
+
+@media screen and (min-width: 768px) {
+    .card_horizontal {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+}
+
+.card_horizontal .card__body {
+    padding-top: 0;
+}
+
+.card_horizontal .card__title {
+    margin-bottom: 1rem;
+}
+
+.card_noShadow {
+    box-shadow: none;
+}

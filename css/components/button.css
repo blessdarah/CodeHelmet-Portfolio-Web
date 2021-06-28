@@ -1,0 +1,50 @@
+.button {
+    --px: 2rem;
+    --py: 1rem;
+    display: inline-block;
+    text-align: center;
+    padding: var(--py) var(--px);
+    text-decoration: none;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    word-wrap: nowrap;
+    line-break: none;
+    font-family: var(--font);
+}
+
+.button:hover {
+    opacity: .85;
+}
+
+.button:active {
+    transform: scale(.95);
+}
+
+.button_theme_primary {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.button_behance {
+    color: blue;
+}
+
+.button_dribbble {
+    color: rgb(230, 68, 167);
+}
+
+.button_theme_secondary {
+    background-color: var(--secondary);
+}
+
+.button_type_link {
+    background-color: transparent;
+    text-decoration: underline;
+    box-shadow: none;
+    padding: 0;
+}
+
+
+/* contact section */

@@ -1,0 +1,21 @@
+.form__group {
+    margin-bottom: 2rem;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: .4rem;
+}
+
+.form__input {
+    border-radius: .5rem;
+    padding: 1rem;
+    border: none;
+    background: var(--light);
+    display: block;
+    width: 100%;
+    font-family: var(--font);
+    color: var(--dark-blue);
+    font-size: 1rem;
+    opacity: .8;
+}

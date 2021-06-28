@@ -1,0 +1,79 @@
+.services {
+    padding: 5rem 0;
+    margin: 5rem 0;
+}
+
+.services .grid {
+    margin-bottom: 2rem;
+}
+
+.section__description {
+    margin: 0 auto 2.5rem;
+}
+
+@media screen and (min-width: 678px) {
+    .section__description {
+        width: 60%;
+    }
+}
+
+
+/* portfolio */
+
+@media screen and (min-width: 678px) {
+    .portfolio {
+        display: flex;
+    }
+    .portfolio__cards {
+        padding-left: 3rem;
+    }
+}
+
+.porfolio__header {
+    margin-bottom: 4rem;
+}
+
+.porfolio__buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.porfolio__buttons a:not(:last-of-type) {
+    margin-right: 1rem;
+}
+
+
+/* about me section */
+
+@media screen and (min-width: 768px) {
+    #about {
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        padding: 5rem 0;
+    }
+}
+
+.about__image {
+    transform: scaleX(-1) translateX(100px);
+}
+
+#about .button {
+    margin-top: 2rem;
+}
+
+
+/* contact section */
+
+#contact {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .form {
+        width: 80%;
+    }
+}

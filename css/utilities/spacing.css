@@ -1,0 +1,14 @@
+/* margins */
+
+:root {
+    --lg: 2rem;
+    --xl: 5rem;
+}
+
+.py-xl {
+    padding: var(--xl) 0;
+}
+
+.my-xl {
+    margin: var(--xl) 0;
+}

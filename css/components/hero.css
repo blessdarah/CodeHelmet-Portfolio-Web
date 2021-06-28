@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hero .title {
+    margin-top: 2rem;
+}
+
+.hero__content {
+    text-align: center;
+}
+
+.hero__buttons {
+    margin-top: 2.4rem;
+}
+
+@media screen and (min-width: 769px) {
+    .hero {
+        flex-direction: row;
+        align-items: center;
+    }
+    .hero .title {
+        font-size: 2.3rem;
+        line-height: 1.3;
+        margin-bottom: 2rem;
+    }
+    .hero__content {
+        flex: 4;
+        text-align: left;
+    }
+    .hero__image {
+        flex: 1;
+    }
+}
